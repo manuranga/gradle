@@ -31,6 +31,7 @@ public class DefaultProcessForkOptions implements ProcessForkOptions {
     private Map<String, Object> environment;
 
     public DefaultProcessForkOptions(PathToFileResolver resolver) {
+        assert resolver.canResolveRelativePath();
         this.resolver = resolver;
     }
 

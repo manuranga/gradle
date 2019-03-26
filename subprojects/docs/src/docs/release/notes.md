@@ -8,9 +8,6 @@ Include only their name, impactful features should be called out separately belo
  [Some person](https://github.com/some-person)
 -->
 
-[Ian Kerins](https://github.com/isker),
-and [Stefan M.](https://github.com/StefMa).
-
 <!-- 
 ## 1
 
@@ -25,13 +22,9 @@ details of 2
 
 ## Upgrade Instructions
 
-Switch your build to use Gradle @version@ by updating your wrapper properties:
+Switch your build to use Gradle @version@ by updating your wrapper:
 
 `./gradlew wrapper --gradle-version=@version@`
-
-## Support for JDK12
-
-Gradle now supports running on [JDK12](https://jdk.java.net/12/). 
 
 ## Promoted features
 Promoted features are features that were incubating in previous versions of Gradle but are now supported and subject to backwards compatibility.
@@ -59,12 +52,6 @@ The following are the newly deprecated items in this Gradle release. If you have
 <!--
 ### Example deprecation
 -->
-
-### Using custom local build cache implementations
-
-Using a custom build cache implementation for the local build cache is now deprecated.
-The only allowed type will be `DirectoryBuildCache` going forward.
-There is no change in the support for using custom build cache implementations as the remote build cache. 
 
 ### Breaking changes
 
